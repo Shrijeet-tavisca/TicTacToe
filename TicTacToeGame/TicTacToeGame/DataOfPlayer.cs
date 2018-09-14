@@ -11,6 +11,25 @@ namespace TicTacToeGame
     {
         public static int numberOfPlayer = 0;
         public static string currentPlayerToken = null;
+
+        public void AddLog(Logger log)
+        {
+            using (var connection = new SqlConnection("Data Source=TAVDESK033;Initial Catalog=TicTacToeGame;User ID=sa;Password=test123!@#"))
+            {
+                numberOfPlayer++;
+                connection.Open();
+                string sql = "INSERT INTO LogDB(Exception,Result,Response) VALUES(@Name,@Email,@Token)";
+
+                SqlCommand cmd = new SqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@Name", log.Exception);
+                cmd.Parameters.AddWithValue("@Email", log.Request);
+                cmd.Parameters.AddWithValue("@Token", log.Response);
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+                connection.Close();
+            }
+
+        }
         public static bool Add(Player player)
         {
             try
@@ -35,6 +54,7 @@ namespace TicTacToeGame
                     }
                     cmd.CommandType = CommandType.Text;
                     cmd.ExecuteNonQuery();
+                    connection.Close();
                     player.Id = GetCurrentUserID();
                     return true;
                 }

@@ -109,6 +109,7 @@ namespace TicTacToeGame
         public static bool winner;
         // GET: api/Identity
         [HttpGet("{id}")]
+        [Logger]
         public string Get(int id)
         {
             string Token = DataOfPlayer.GetCurrentUserToken(id);
@@ -116,6 +117,7 @@ namespace TicTacToeGame
         }
 
         [HttpPost]
+        [Logger]
         public ActionResult Post([FromBody]Player player)
         {
             bool isSuccessful = DataOfPlayer.Add(player);
@@ -127,6 +129,7 @@ namespace TicTacToeGame
 
         // PUT: api/Identity/5
         [HttpPut("{id}")]
+        [Logger]
         public ActionResult Put(int id, [FromBody]string value)
         {
             //editing in case of Inputs 
