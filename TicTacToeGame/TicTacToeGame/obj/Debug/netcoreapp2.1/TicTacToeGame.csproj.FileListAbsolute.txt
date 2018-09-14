@@ -1,0 +1,14 @@
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.deps.json
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.runtimeconfig.json
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.runtimeconfig.dev.json
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.dll
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.csprojAssemblyReference.cache
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.csproj.CoreCompileInputs.cache
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.RazorAssemblyInfo.cache
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.RazorAssemblyInfo.cs
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.AssemblyInfoInputs.cache
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.AssemblyInfo.cs
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.RazorTargetAssemblyInfo.cache
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\bin\Debug\netcoreapp2.1\TicTacToeGame.pdb
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.dll
+c:\users\skarade\source\repos\TicTacToeGame\TicTacToeGame\obj\Debug\netcoreapp2.1\TicTacToeGame.pdb
